@@ -2,11 +2,8 @@ import os
 import discord # type: ignore
 from discord.ext import commands # type: ignore
 from discord import app_commands # type: ignore
-from dotenv import load_dotenv
 
 from myserver import server_on
-
-load_dotenv()
 
 bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
 
